@@ -1,0 +1,210 @@
+#!/bin/bash
+
+# Rabotna direktoria za otcheti i danni
+REPORT_DIR="/root/darkwebarmy_lab/reports"
+mkdir -p "$REPORT_DIR"
+SUMMARY_FILE="$REPORT_DIR/client_summary_report.txt"
+
+# Funktsia za pod-menuto (Opcia 33)
+sub_menu() {
+    while true; do
+        clear
+        echo "===================================================="
+        echo "       DARKWEBARMY // 33. POD-MENU (ADVANCED)       "
+        echo "===================================================="
+        echo "1. AL-MOZUK SYSTEM (Arhitektura i logika na AI agenta)"
+        echo "2. Hardware Instrumenti (Avtomatichen start sreshtu celta)"
+        echo "3. Hardware Rezultati (Anteni, SDR, signalni danni sreshtu celta)"
+        echo "4. Dynamic Tool Loader (Zakachane i svalyane na novi/nepisani instrumenti)"
+        echo "5. Full System Update & Upgrade (Avtomatichen apt/pkg update)"
+        echo "6. Root / Sudo Automation Engine (Upravlenie na paketi i sistemi)"
+        echo "7. Ollama AI Integration Status (Proverka na lokalna Olama)"
+        echo "8. Vrashtane kum glavnoto menu"
+        echo "===================================================="
+        read -p "Izberi opcia ot pod-menuto (1-8): " sub_choice
+
+        case $sub_choice in
+            1)
+                echo "[*] AL-MOZUK SYSTEM: Aktiviran. Izgrazhdame i nadgrajdame logikata na agenta..."
+                read -p "Natisni Enter..."
+                ;;
+            2)
+                echo "[*] Startejne na hardware instrumenti (SDR/Kismet/Anteni) sreshtu celta..."
+                # Tuk moje da se vkara avtomatichnia start na hardware
+                read -p "Natisni Enter..."
+                ;;
+            3)
+                echo "[*] Izvlichane na rezultati ot hardware (anteni, zasekane na signali)..."
+                read -p "Natisni Enter..."
+                ;;
+            4)
+                read -p "Vavedi ime na nov/lipsvasht instrument za svalyane: " new_tool
+                apt update && apt install -y "$new_tool" || echo "Greshka pri svalyane!"
+                read -p "Natisni Enter..."
+                ;;
+            5)
+                echo "[*] Izpulnenie na avtomatichen apt update && apt upgrade..."
+                apt update && apt upgrade -y
+                read -p "Natisni Enter..."
+                ;;
+            6)
+                echo "[*] Root / Sudo Engine (apt & dpkg paketno upravlenie)..."
+                read -p "Vavedi paket za instalisirane/proverka prez apt: " pkg_name
+                sudo apt install -y "$pkg_name"
+                read -p "Natisni Enter..."
+                ;;
+            7)
+                echo "[*] Proverka na Olama status..."
+                ollama list || echo "Olama ne e aktivna ili ne e instalirana."
+                read -p "Natisni Enter..."
+                ;;
+            8)
+                return
+                ;;
+            *)
+                echo "Nevaliden izbor v pod-menuto!"
+                sleep 2
+                ;;
+        esac
+    done
+}
+
+# Glaven tsikal na menuto
+while true; do
+    clear
+    echo "===================================================="
+    echo "     DARKWEBARMY // KALI LINUX SUPREME MENU (33)    "
+    echo "===================================================="
+    echo "--- OSNOVNI 30 INSTRUMENTA ---"
+    echo "1. Nmap (Network & Port Scanner)"
+    echo "2. Masscan (Ultra-fast Port Scanner)"
+    echo "3. Metasploit Framework (Exploitation)"
+    echo "4. Burp Suite (Web Traffic Interception)"
+    echo "5. Sqlmap (SQL Injection Automation)"
+    echo "6. Wireshark (Network Packet Analyzer)"
+    echo "7. Aircrack-ng (Wireless Security Auditor)"
+    echo "8. Hydra (Password Cracking Tool)"
+    echo "9. John the Ripper (Password Hash Cracker)"
+    echo "10. Nikto (Web Server Vulnerability Scanner)"
+    echo "11. Gobuster (Directory/File Bruteforcer)"
+    echo "12. Dirb (URL/Web Path Scanner)"
+    echo "13. Hashcat (Advanced Password Cracker)"
+    echo "14. Searchsploit (Exploit-DB Search Tool)"
+    echo "15. Sqlsus (MySQL Injection & Tampering)"
+    echo "16. Netcat (Networking & Backdoor Swiss Army Knife)"
+    echo "17. Tcpdump (Command-line Packet Analyzer)"
+    echo "18. Macchanger (MAC Address Spoofing)"
+    echo "19. Bettercap (Network Attack & Monitoring)"
+    echo "20. Responder (LLMNR/NBT-NS Poisoner)"
+    echo "21. Impacket (Network Protocols & Lateral Movement)"
+    echo "22. Binwalk (Firmware Analysis & Extraction)"
+    echo "23. Steghide (Steganography Hidden Data Extractor)"
+    echo "24. Ghidra (Reverse Engineering & Decompiler)"
+    echo "25. Medusa (Login Brute-forcer)"
+    echo "26. Kismet (Wireless & GPS Sniffer)"
+    echo "27. GQRX (Software Defined Radio / SDR)"
+    echo "28. Proxychains (Anonymity & Traffic Tunneling)"
+    echo "29. Whois (Domain & IP Information Lookup)"
+    echo "30. Dig / Nslookup (DNS Reconnaissance)"
+    echo "--- SPECIALNI / AI / POD-MENUTA ---"
+    echo "31. GENERIRAI I POKAJI CELYATA INFORMACIA ZA KLIENTA (Kopirane)"
+    echo "32. AL-AGENT (AI-driven Audit & Intelligence)"
+    echo "33. POD-MENU (8 Opcii: AI-Mozuk, Hardware/Anteni, Update, Sudo/Apt)"
+    echo "0. Izhod (Exit)"
+    echo "===================================================="
+    read -p "Izberi opcia (0-33): " choice
+
+    case $choice in
+        1) 
+           read -p "Vavedi IP/Celt za Nmap: " ip
+           nmap -sV -p- $ip | tee -a "$SUMMARY_FILE" 
+           ;;
+        2) 
+           read -p "Vavedi IP za Masscan: " ip
+           masscan $ip -p1-65535 --rate=1000 | tee -a "$SUMMARY_FILE" 
+           ;;
+        3) msfconsole ;;
+        4) burpsuite & ;;
+        5) 
+           read -p "Vavedi URL za Sqlmap: " url
+           sqlmap -u "$url" --batch | tee -a "$SUMMARY_FILE" 
+           ;;
+        6) wireshark & ;;
+        7) aircrack-ng ;;
+        8) hydra ;;
+        9) john ;;
+        10) 
+           read -p "Vavedi URL za Nikto: " url
+           nikto -h "$url" | tee -a "$SUMMARY_FILE" 
+           ;;
+        11) 
+           read -p "Vavedi URL za Gobuster: " url
+           gobuster dir -u "$url" -w /usr/share/wordlists/dirb/common.txt | tee -a "$SUMMARY_FILE" 
+           ;;
+        12) 
+           read -p "Vavedi URL za Dirb: " url
+           dirb "$url" | tee -a "$SUMMARY_FILE" 
+           ;;
+        13) hashcat --help ;;
+        14) 
+           read -p "Vavedi tursena duma za exploit: " term
+           searchsploit "$term" | tee -a "$SUMMARY_FILE" 
+           ;;
+        15) sqlsus ;;
+        16) nc -h ;;
+        17) tcpdump -h ;;
+        18) macchanger -s eth0 ;;
+        19) bettercap ;;
+        20) responder -I eth0 ;;
+        21) impacket-psexec -h ;;
+        22) 
+           read -p "Vavedi pyat do firmware fail: " file
+           binwalk "$file" | tee -a "$SUMMARY_FILE" 
+           ;;
+        23) steghide --help ;;
+        24) ghidra & ;;
+        25) medusa ;;
+        26) kismet ;;
+        27) gqrx & ;;
+        28) proxychains bash ;;
+        29) 
+           read -p "Vavedi doejn/IP za Whois: " target
+           whois "$target" | tee -a "$SUMMARY_FILE" 
+           ;;
+        30) 
+           read -p "Vavedi doejn za Dig: " domain
+           dig "$domain" | tee -a "$SUMMARY_FILE" 
+           ;;
+        31)
+            clear
+            echo "===================================================="
+            echo "       TSYL OTCHET / INFORMACIA ZA KLIENTA          "
+            echo "===================================================="
+            if [ -f "$SUMMARY_FILE" ]; then
+                cat "$SUMMARY_FILE"
+            else
+                echo "Nyama vse oshte sybrani danni vo faila."
+            fi
+            echo "===================================================="
+            read -p "Natisni Enter za vrashtane v menuto..."
+            ;;
+        32)
+            echo "[*] Startejne na AL-AGENT (AI Integration)..."
+            # Tyk moje da se vkara vryzkata s lokalnata Olama
+            ollama run llama3 || echo "Startiranei na AL-agent..."
+            read -p "Natisni Enter..."
+            ;;
+        33)
+            sub_menu
+            ;;
+        0) 
+           echo "Izhod ot menuto. Uspeh v misiyata, shefe!"
+           exit 0 
+           ;;
+        *) 
+           echo "Nevaliden izbor! Probvaj pak."
+           sleep 2 
+           ;;
+    esac
+    read -p "Natisni Enter za prodaljenie..."
+done
