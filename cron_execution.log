@@ -1,0 +1,1597 @@
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Извличане на: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Заглавие: Смърт по непредпазливост: Обвиниха шофьора причинил мелето при Владая
+[+] Обем на текста: 1497 символа
+
+[->] Извличане на: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Заглавие: Почина архитекта на хотел Струма в Перник
+[+] Обем на текста: 371 символа
+
+[->] Извличане на: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[!] Грешка при връзката: SOCKSHTTPSConnectionPool(host='zapernik.com', port=443): Read timed out. (read timeout=15)
+
+[->] Извличане на: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Извличане на: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Заглавие: Задържаха шофьора убил перничанка в катастрофата при Владая
+[+] Обем на текста: 994 символа
+
+[->] Извличане на: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Заглавие: Певецът Благо Борисов от Перник разрови миналото – как волята и дисциплината го спасиха
+[+] Обем на текста: 4722 символа
+
+[->] Извличане на: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Заглавие: Светкавична акция за ало-измама в Перник: Хванаха 18-годишно „муле“ с 9000 евро
+[+] Обем на текста: 1704 символа
+
+[->] Извличане на: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Заглавие: Лятна кухня изгоря в кв. Бела вода
+[+] Обем на текста: 456 символа
+
+[->] Извличане на: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Заглавие: Откриват пъмп трак в Радомир
+[+] Обем на текста: 984 символа
+
+[->] Извличане на: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Заглавие: Работа в Перник: Касиери, учители и склададжии с най-високите заплати в Бюрото по труда
+[+] Обем на текста: 950 символа
+
+[->] Извличане на: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Заглавие: Тежка катастрофа край Владая, загина жена
+[+] Обем на текста: 528 символа
+
+[->] Извличане на: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Заглавие: Кметът Кирил Стоев посрещна златната Крисия от Радомир
+[+] Обем на текста: 759 символа
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Обработка: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Записано в базата: Смърт по непредпазливост: Обвиниха шофьо...
+
+[->] Обработка: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Записано в базата: Почина архитекта на хотел Струма в Перни...
+
+[->] Обработка: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Записано в базата: Постоянен арест за перничанин, пребил пр...
+
+[->] Обработка: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Обработка: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Записано в базата: Задържаха шофьора убил перничанка в ката...
+
+[->] Обработка: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Записано в базата: Певецът Благо Борисов от Перник разрови ...
+
+[->] Обработка: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Записано в базата: Светкавична акция за ало-измама в Перник...
+
+[->] Обработка: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+Traceback (most recent call last):
+  File "/mnt/c/Users/gtupo/darkwebarmy_lab/extract_news.py", line 90, in <module>
+    response = requests.get(url, proxies=proxies, timeout=15)
+  File "/mnt/c/Users/gtupo/darkwebarmy_lab/venv/lib/python3.14/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+  File "/mnt/c/Users/gtupo/darkwebarmy_lab/venv/lib/python3.14/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/mnt/c/Users/gtupo/darkwebarmy_lab/venv/lib/python3.14/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/mnt/c/Users/gtupo/darkwebarmy_lab/venv/lib/python3.14/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+  File "/mnt/c/Users/gtupo/darkwebarmy_lab/venv/lib/python3.14/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/mnt/c/Users/gtupo/darkwebarmy_lab/venv/lib/python3.14/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/mnt/c/Users/gtupo/darkwebarmy_lab/venv/lib/python3.14/site-packages/urllib3/connectionpool.py", line 540, in _make_request
+    response = conn.getresponse()
+  File "/mnt/c/Users/gtupo/darkwebarmy_lab/venv/lib/python3.14/site-packages/urllib3/connection.py", line 638, in getresponse
+    httplib_response = super().getresponse()
+  File "/usr/lib/python3.14/http/client.py", line 1459, in getresponse
+    response.begin()
+    ~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/http/client.py", line 336, in begin
+    version, status, reason = self._read_status()
+                              ~~~~~~~~~~~~~~~~~^^
+  File "/usr/lib/python3.14/http/client.py", line 297, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/socket.py", line 725, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "/usr/lib/python3.14/ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.14/ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+KeyboardInterrupt
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Извличане на: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Заглавие: Смърт по непредпазливост: Обвиниха шофьора причинил мелето при Владая
+[+] Обем на текста: 1497 символа
+
+[->] Извличане на: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Заглавие: Почина архитекта на хотел Струма в Перник
+[+] Обем на текста: 371 символа
+
+[->] Извличане на: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Заглавие: Постоянен арест за перничанин, пребил приятелката си
+[+] Обем на текста: 759 символа
+
+[->] Извличане на: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Извличане на: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Заглавие: Задържаха шофьора убил перничанка в катастрофата при Владая
+[+] Обем на текста: 994 символа
+
+[->] Извличане на: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Заглавие: Певецът Благо Борисов от Перник разрови миналото – как волята и дисциплината го спасиха
+[+] Обем на текста: 4722 символа
+
+[->] Извличане на: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Заглавие: Светкавична акция за ало-измама в Перник: Хванаха 18-годишно „муле“ с 9000 евро
+[+] Обем на текста: 1704 символа
+
+[->] Извличане на: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Заглавие: Лятна кухня изгоря в кв. Бела вода
+[+] Обем на текста: 456 символа
+
+[->] Извличане на: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Заглавие: Откриват пъмп трак в Радомир
+[+] Обем на текста: 984 символа
+
+[->] Извличане на: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Заглавие: Работа в Перник: Касиери, учители и склададжии с най-високите заплати в Бюрото по труда
+[+] Обем на текста: 950 символа
+
+[->] Извличане на: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Заглавие: Тежка катастрофа край Владая, загина жена
+[+] Обем на текста: 528 символа
+
+[->] Извличане на: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Заглавие: Кметът Кирил Стоев посрещна златната Крисия от Радомир
+[+] Обем на текста: 759 символа
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Обработка: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Записано в базата: Смърт по непредпазливост: Обвиниха шофьо...
+
+[->] Обработка: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Записано в базата: Почина архитекта на хотел Струма в Перни...
+
+[->] Обработка: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Записано в базата: Постоянен арест за перничанин, пребил пр...
+
+[->] Обработка: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Обработка: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Записано в базата: Задържаха шофьора убил перничанка в ката...
+
+[->] Обработка: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Записано в базата: Певецът Благо Борисов от Перник разрови ...
+
+[->] Обработка: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Записано в базата: Светкавична акция за ало-измама в Перник...
+
+[->] Обработка: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Записано в базата: Лятна кухня изгоря в кв. Бела вода...
+
+[->] Обработка: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Записано в базата: Откриват пъмп трак в Радомир...
+
+[->] Обработка: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Записано в базата: Работа в Перник: Касиери, учители и скла...
+
+[->] Обработка: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Записано в базата: Тежка катастрофа край Владая, загина жен...
+
+[->] Обработка: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Записано в базата: Кметът Кирил Стоев посрещна златната Кри...
+
+[+] Всички данни са успешно съхранени в 'news_database.db'!
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Извличане на: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Заглавие: Смърт по непредпазливост: Обвиниха шофьора причинил мелето при Владая
+[+] Обем на текста: 1497 символа
+
+[->] Извличане на: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Заглавие: Почина архитекта на хотел Струма в Перник
+[+] Обем на текста: 371 символа
+
+[->] Извличане на: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Заглавие: Постоянен арест за перничанин, пребил приятелката си
+[+] Обем на текста: 759 символа
+
+[->] Извличане на: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Извличане на: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Заглавие: Задържаха шофьора убил перничанка в катастрофата при Владая
+[+] Обем на текста: 994 символа
+
+[->] Извличане на: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Заглавие: Певецът Благо Борисов от Перник разрови миналото – как волята и дисциплината го спасиха
+[+] Обем на текста: 4722 символа
+
+[->] Извличане на: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Заглавие: Светкавична акция за ало-измама в Перник: Хванаха 18-годишно „муле“ с 9000 евро
+[+] Обем на текста: 1704 символа
+
+[->] Извличане на: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Заглавие: Лятна кухня изгоря в кв. Бела вода
+[+] Обем на текста: 456 символа
+
+[->] Извличане на: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Заглавие: Откриват пъмп трак в Радомир
+[+] Обем на текста: 984 символа
+
+[->] Извличане на: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Заглавие: Работа в Перник: Касиери, учители и склададжии с най-високите заплати в Бюрото по труда
+[+] Обем на текста: 950 символа
+
+[->] Извличане на: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Заглавие: Тежка катастрофа край Владая, загина жена
+[+] Обем на текста: 528 символа
+
+[->] Извличане на: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Заглавие: Кметът Кирил Стоев посрещна златната Крисия от Радомир
+[+] Обем на текста: 759 символа
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Обработка: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Записано в базата: Смърт по непредпазливост: Обвиниха шофьо...
+
+[->] Обработка: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Записано в базата: Почина архитекта на хотел Струма в Перни...
+
+[->] Обработка: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Записано в базата: Постоянен арест за перничанин, пребил пр...
+
+[->] Обработка: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Обработка: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Записано в базата: Задържаха шофьора убил перничанка в ката...
+
+[->] Обработка: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Записано в базата: Певецът Благо Борисов от Перник разрови ...
+
+[->] Обработка: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Записано в базата: Светкавична акция за ало-измама в Перник...
+
+[->] Обработка: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Записано в базата: Лятна кухня изгоря в кв. Бела вода...
+
+[->] Обработка: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Записано в базата: Откриват пъмп трак в Радомир...
+
+[->] Обработка: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Записано в базата: Работа в Перник: Касиери, учители и скла...
+
+[->] Обработка: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Записано в базата: Тежка катастрофа край Владая, загина жен...
+
+[->] Обработка: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Записано в базата: Кметът Кирил Стоев посрещна златната Кри...
+
+[+] Всички данни са успешно съхранени в 'news_database.db'!
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Извличане на: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Заглавие: Смърт по непредпазливост: Обвиниха шофьора причинил мелето при Владая
+[+] Обем на текста: 1497 символа
+
+[->] Извличане на: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Заглавие: Почина архитекта на хотел Струма в Перник
+[+] Обем на текста: 371 символа
+
+[->] Извличане на: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Заглавие: Постоянен арест за перничанин, пребил приятелката си
+[+] Обем на текста: 759 символа
+
+[->] Извличане на: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Извличане на: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Заглавие: Задържаха шофьора убил перничанка в катастрофата при Владая
+[+] Обем на текста: 994 символа
+
+[->] Извличане на: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Заглавие: Певецът Благо Борисов от Перник разрови миналото – как волята и дисциплината го спасиха
+[+] Обем на текста: 4722 символа
+
+[->] Извличане на: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Заглавие: Светкавична акция за ало-измама в Перник: Хванаха 18-годишно „муле“ с 9000 евро
+[+] Обем на текста: 1704 символа
+
+[->] Извличане на: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Заглавие: Лятна кухня изгоря в кв. Бела вода
+[+] Обем на текста: 456 символа
+
+[->] Извличане на: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Заглавие: Откриват пъмп трак в Радомир
+[+] Обем на текста: 984 символа
+
+[->] Извличане на: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Заглавие: Работа в Перник: Касиери, учители и склададжии с най-високите заплати в Бюрото по труда
+[+] Обем на текста: 950 символа
+
+[->] Извличане на: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Заглавие: Тежка катастрофа край Владая, загина жена
+[+] Обем на текста: 528 символа
+
+[->] Извличане на: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Заглавие: Кметът Кирил Стоев посрещна златната Крисия от Радомир
+[+] Обем на текста: 759 символа
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Обработка: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Записано в базата: Смърт по непредпазливост: Обвиниха шофьо...
+
+[->] Обработка: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Записано в базата: Почина архитекта на хотел Струма в Перни...
+
+[->] Обработка: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Записано в базата: Постоянен арест за перничанин, пребил пр...
+
+[->] Обработка: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Обработка: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Записано в базата: Задържаха шофьора убил перничанка в ката...
+
+[->] Обработка: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Записано в базата: Певецът Благо Борисов от Перник разрови ...
+
+[->] Обработка: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Записано в базата: Светкавична акция за ало-измама в Перник...
+
+[->] Обработка: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Записано в базата: Лятна кухня изгоря в кв. Бела вода...
+
+[->] Обработка: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Записано в базата: Откриват пъмп трак в Радомир...
+
+[->] Обработка: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Записано в базата: Работа в Перник: Касиери, учители и скла...
+
+[->] Обработка: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Записано в базата: Тежка катастрофа край Владая, загина жен...
+
+[->] Обработка: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Записано в базата: Кметът Кирил Стоев посрещна златната Кри...
+
+[+] Всички данни са успешно съхранени в 'news_database.db'!
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Извличане на: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Заглавие: Смърт по непредпазливост: Обвиниха шофьора причинил мелето при Владая
+[+] Обем на текста: 1497 символа
+
+[->] Извличане на: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Заглавие: Почина архитекта на хотел Струма в Перник
+[+] Обем на текста: 371 символа
+
+[->] Извличане на: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Заглавие: Постоянен арест за перничанин, пребил приятелката си
+[+] Обем на текста: 759 символа
+
+[->] Извличане на: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Извличане на: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Заглавие: Задържаха шофьора убил перничанка в катастрофата при Владая
+[+] Обем на текста: 994 символа
+
+[->] Извличане на: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Заглавие: Певецът Благо Борисов от Перник разрови миналото – как волята и дисциплината го спасиха
+[+] Обем на текста: 4722 символа
+
+[->] Извличане на: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Заглавие: Светкавична акция за ало-измама в Перник: Хванаха 18-годишно „муле“ с 9000 евро
+[+] Обем на текста: 1704 символа
+
+[->] Извличане на: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Заглавие: Лятна кухня изгоря в кв. Бела вода
+[+] Обем на текста: 456 символа
+
+[->] Извличане на: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Заглавие: Откриват пъмп трак в Радомир
+[+] Обем на текста: 984 символа
+
+[->] Извличане на: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Заглавие: Работа в Перник: Касиери, учители и склададжии с най-високите заплати в Бюрото по труда
+[+] Обем на текста: 950 символа
+
+[->] Извличане на: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Заглавие: Тежка катастрофа край Владая, загина жена
+[+] Обем на текста: 528 символа
+
+[->] Извличане на: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Заглавие: Кметът Кирил Стоев посрещна златната Крисия от Радомир
+[+] Обем на текста: 759 символа
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Обработка: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Записано в базата: Смърт по непредпазливост: Обвиниха шофьо...
+
+[->] Обработка: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Записано в базата: Почина архитекта на хотел Струма в Перни...
+
+[->] Обработка: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Записано в базата: Постоянен арест за перничанин, пребил пр...
+
+[->] Обработка: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Обработка: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Записано в базата: Задържаха шофьора убил перничанка в ката...
+
+[->] Обработка: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Записано в базата: Певецът Благо Борисов от Перник разрови ...
+
+[->] Обработка: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Записано в базата: Светкавична акция за ало-измама в Перник...
+
+[->] Обработка: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Записано в базата: Лятна кухня изгоря в кв. Бела вода...
+
+[->] Обработка: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Записано в базата: Откриват пъмп трак в Радомир...
+
+[->] Обработка: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Записано в базата: Работа в Перник: Касиери, учители и скла...
+
+[->] Обработка: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Записано в базата: Тежка катастрофа край Владая, загина жен...
+
+[->] Обработка: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Записано в базата: Кметът Кирил Стоев посрещна златната Кри...
+
+[+] Всички данни са успешно съхранени в 'news_database.db'!
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Извличане на: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Заглавие: Смърт по непредпазливост: Обвиниха шофьора причинил мелето при Владая
+[+] Обем на текста: 1497 символа
+
+[->] Извличане на: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Заглавие: Почина архитекта на хотел Струма в Перник
+[+] Обем на текста: 371 символа
+
+[->] Извличане на: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Заглавие: Постоянен арест за перничанин, пребил приятелката си
+[+] Обем на текста: 759 символа
+
+[->] Извличане на: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Извличане на: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Заглавие: Задържаха шофьора убил перничанка в катастрофата при Владая
+[+] Обем на текста: 994 символа
+
+[->] Извличане на: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Заглавие: Певецът Благо Борисов от Перник разрови миналото – как волята и дисциплината го спасиха
+[+] Обем на текста: 4722 символа
+
+[->] Извличане на: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Заглавие: Светкавична акция за ало-измама в Перник: Хванаха 18-годишно „муле“ с 9000 евро
+[+] Обем на текста: 1704 символа
+
+[->] Извличане на: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Заглавие: Лятна кухня изгоря в кв. Бела вода
+[+] Обем на текста: 456 символа
+
+[->] Извличане на: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Заглавие: Откриват пъмп трак в Радомир
+[+] Обем на текста: 984 символа
+
+[->] Извличане на: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Заглавие: Работа в Перник: Касиери, учители и склададжии с най-високите заплати в Бюрото по труда
+[+] Обем на текста: 950 символа
+
+[->] Извличане на: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Заглавие: Тежка катастрофа край Владая, загина жена
+[+] Обем на текста: 528 символа
+
+[->] Извличане на: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Заглавие: Кметът Кирил Стоев посрещна златната Крисия от Радомир
+[+] Обем на текста: 759 символа
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Обработка: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Записано в базата: Смърт по непредпазливост: Обвиниха шофьо...
+
+[->] Обработка: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Записано в базата: Почина архитекта на хотел Струма в Перни...
+
+[->] Обработка: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Записано в базата: Постоянен арест за перничанин, пребил пр...
+
+[->] Обработка: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Обработка: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Записано в базата: Задържаха шофьора убил перничанка в ката...
+
+[->] Обработка: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Записано в базата: Певецът Благо Борисов от Перник разрови ...
+
+[->] Обработка: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Записано в базата: Светкавична акция за ало-измама в Перник...
+
+[->] Обработка: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Записано в базата: Лятна кухня изгоря в кв. Бела вода...
+
+[->] Обработка: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Записано в базата: Откриват пъмп трак в Радомир...
+
+[->] Обработка: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Записано в базата: Работа в Перник: Касиери, учители и скла...
+
+[->] Обработка: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Записано в базата: Тежка катастрофа край Владая, загина жен...
+
+[->] Обработка: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Записано в базата: Кметът Кирил Стоев посрещна златната Кри...
+
+[+] Всички данни са успешно съхранени в 'news_database.db'!
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Извличане на: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Заглавие: Смърт по непредпазливост: Обвиниха шофьора причинил мелето при Владая
+[+] Обем на текста: 1497 символа
+
+[->] Извличане на: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Заглавие: Почина архитекта на хотел Струма в Перник
+[+] Обем на текста: 371 символа
+
+[->] Извличане на: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Заглавие: Постоянен арест за перничанин, пребил приятелката си
+[+] Обем на текста: 759 символа
+
+[->] Извличане на: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Извличане на: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Заглавие: Задържаха шофьора убил перничанка в катастрофата при Владая
+[+] Обем на текста: 994 символа
+
+[->] Извличане на: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Заглавие: Певецът Благо Борисов от Перник разрови миналото – как волята и дисциплината го спасиха
+[+] Обем на текста: 4722 символа
+
+[->] Извличане на: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Заглавие: Светкавична акция за ало-измама в Перник: Хванаха 18-годишно „муле“ с 9000 евро
+[+] Обем на текста: 1704 символа
+
+[->] Извличане на: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Заглавие: Лятна кухня изгоря в кв. Бела вода
+[+] Обем на текста: 456 символа
+
+[->] Извличане на: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Заглавие: Откриват пъмп трак в Радомир
+[+] Обем на текста: 984 символа
+
+[->] Извличане на: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Заглавие: Работа в Перник: Касиери, учители и склададжии с най-високите заплати в Бюрото по труда
+[+] Обем на текста: 950 символа
+
+[->] Извличане на: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Заглавие: Тежка катастрофа край Владая, загина жена
+[+] Обем на текста: 528 символа
+
+[->] Извличане на: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Заглавие: Кметът Кирил Стоев посрещна златната Крисия от Радомир
+[+] Обем на текста: 759 символа
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Обработка: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Записано в базата: Смърт по непредпазливост: Обвиниха шофьо...
+
+[->] Обработка: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Записано в базата: Почина архитекта на хотел Струма в Перни...
+
+[->] Обработка: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Записано в базата: Постоянен арест за перничанин, пребил пр...
+
+[->] Обработка: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Обработка: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Записано в базата: Задържаха шофьора убил перничанка в ката...
+
+[->] Обработка: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Записано в базата: Певецът Благо Борисов от Перник разрови ...
+
+[->] Обработка: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Записано в базата: Светкавична акция за ало-измама в Перник...
+
+[->] Обработка: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Записано в базата: Лятна кухня изгоря в кв. Бела вода...
+
+[->] Обработка: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Записано в базата: Откриват пъмп трак в Радомир...
+
+[->] Обработка: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Записано в базата: Работа в Перник: Касиери, учители и скла...
+
+[->] Обработка: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Записано в базата: Тежка катастрофа край Владая, загина жен...
+
+[->] Обработка: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Записано в базата: Кметът Кирил Стоев посрещна златната Кри...
+
+[+] Всички данни са успешно съхранени в 'news_database.db'!
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Извличане на: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Заглавие: Смърт по непредпазливост: Обвиниха шофьора причинил мелето при Владая
+[+] Обем на текста: 1497 символа
+
+[->] Извличане на: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Заглавие: Почина архитекта на хотел Струма в Перник
+[+] Обем на текста: 371 символа
+
+[->] Извличане на: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Заглавие: Постоянен арест за перничанин, пребил приятелката си
+[+] Обем на текста: 759 символа
+
+[->] Извличане на: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Извличане на: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Заглавие: Задържаха шофьора убил перничанка в катастрофата при Владая
+[+] Обем на текста: 994 символа
+
+[->] Извличане на: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Заглавие: Певецът Благо Борисов от Перник разрови миналото – как волята и дисциплината го спасиха
+[+] Обем на текста: 4722 символа
+
+[->] Извличане на: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Заглавие: Светкавична акция за ало-измама в Перник: Хванаха 18-годишно „муле“ с 9000 евро
+[+] Обем на текста: 1704 символа
+
+[->] Извличане на: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Заглавие: Лятна кухня изгоря в кв. Бела вода
+[+] Обем на текста: 456 символа
+
+[->] Извличане на: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Заглавие: Откриват пъмп трак в Радомир
+[+] Обем на текста: 984 символа
+
+[->] Извличане на: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Заглавие: Работа в Перник: Касиери, учители и склададжии с най-високите заплати в Бюрото по труда
+[+] Обем на текста: 950 символа
+
+[->] Извличане на: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Заглавие: Тежка катастрофа край Владая, загина жена
+[+] Обем на текста: 528 символа
+
+[->] Извличане на: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Заглавие: Кметът Кирил Стоев посрещна златната Крисия от Радомир
+[+] Обем на текста: 759 символа
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Обработка: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Записано в базата: Смърт по непредпазливост: Обвиниха шофьо...
+
+[->] Обработка: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Записано в базата: Почина архитекта на хотел Струма в Перни...
+
+[->] Обработка: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Записано в базата: Постоянен арест за перничанин, пребил пр...
+
+[->] Обработка: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Обработка: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Записано в базата: Задържаха шофьора убил перничанка в ката...
+
+[->] Обработка: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Записано в базата: Певецът Благо Борисов от Перник разрови ...
+
+[->] Обработка: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Записано в базата: Светкавична акция за ало-измама в Перник...
+
+[->] Обработка: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Записано в базата: Лятна кухня изгоря в кв. Бела вода...
+
+[->] Обработка: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Записано в базата: Откриват пъмп трак в Радомир...
+
+[->] Обработка: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Записано в базата: Работа в Перник: Касиери, учители и скла...
+
+[->] Обработка: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Записано в базата: Тежка катастрофа край Владая, загина жен...
+
+[->] Обработка: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Записано в базата: Кметът Кирил Стоев посрещна златната Кри...
+
+[+] Всички данни са успешно съхранени в 'news_database.db'!
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Извличане на: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Заглавие: Смърт по непредпазливост: Обвиниха шофьора причинил мелето при Владая
+[+] Обем на текста: 1497 символа
+
+[->] Извличане на: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Заглавие: Почина архитекта на хотел Струма в Перник
+[+] Обем на текста: 371 символа
+
+[->] Извличане на: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Заглавие: Постоянен арест за перничанин, пребил приятелката си
+[+] Обем на текста: 759 символа
+
+[->] Извличане на: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Извличане на: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Заглавие: Задържаха шофьора убил перничанка в катастрофата при Владая
+[+] Обем на текста: 994 символа
+
+[->] Извличане на: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Заглавие: Певецът Благо Борисов от Перник разрови миналото – как волята и дисциплината го спасиха
+[+] Обем на текста: 4722 символа
+
+[->] Извличане на: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Заглавие: Светкавична акция за ало-измама в Перник: Хванаха 18-годишно „муле“ с 9000 евро
+[+] Обем на текста: 1704 символа
+
+[->] Извличане на: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Заглавие: Лятна кухня изгоря в кв. Бела вода
+[+] Обем на текста: 456 символа
+
+[->] Извличане на: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Заглавие: Откриват пъмп трак в Радомир
+[+] Обем на текста: 984 символа
+
+[->] Извличане на: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Заглавие: Работа в Перник: Касиери, учители и склададжии с най-високите заплати в Бюрото по труда
+[+] Обем на текста: 950 символа
+
+[->] Извличане на: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Заглавие: Тежка катастрофа край Владая, загина жена
+[+] Обем на текста: 528 символа
+
+[->] Извличане на: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Заглавие: Кметът Кирил Стоев посрещна златната Крисия от Радомир
+[+] Обем на текста: 759 символа
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Обработка: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Записано в базата: Смърт по непредпазливост: Обвиниха шофьо...
+
+[->] Обработка: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Записано в базата: Почина архитекта на хотел Струма в Перни...
+
+[->] Обработка: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Записано в базата: Постоянен арест за перничанин, пребил пр...
+
+[->] Обработка: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Обработка: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Записано в базата: Задържаха шофьора убил перничанка в ката...
+
+[->] Обработка: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Записано в базата: Певецът Благо Борисов от Перник разрови ...
+
+[->] Обработка: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Записано в базата: Светкавична акция за ало-измама в Перник...
+
+[->] Обработка: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Записано в базата: Лятна кухня изгоря в кв. Бела вода...
+
+[->] Обработка: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Записано в базата: Откриват пъмп трак в Радомир...
+
+[->] Обработка: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Записано в базата: Работа в Перник: Касиери, учители и скла...
+
+[->] Обработка: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Записано в базата: Тежка катастрофа край Владая, загина жен...
+
+[->] Обработка: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Записано в базата: Кметът Кирил Стоев посрещна златната Кри...
+
+[+] Всички данни са успешно съхранени в 'news_database.db'!
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Извличане на: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Заглавие: Смърт по непредпазливост: Обвиниха шофьора причинил мелето при Владая
+[+] Обем на текста: 1497 символа
+
+[->] Извличане на: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Заглавие: Почина архитекта на хотел Струма в Перник
+[+] Обем на текста: 371 символа
+
+[->] Извличане на: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Заглавие: Постоянен арест за перничанин, пребил приятелката си
+[+] Обем на текста: 759 символа
+
+[->] Извличане на: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Извличане на: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Заглавие: Задържаха шофьора убил перничанка в катастрофата при Владая
+[+] Обем на текста: 994 символа
+
+[->] Извличане на: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Заглавие: Певецът Благо Борисов от Перник разрови миналото – как волята и дисциплината го спасиха
+[+] Обем на текста: 4722 символа
+
+[->] Извличане на: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Заглавие: Светкавична акция за ало-измама в Перник: Хванаха 18-годишно „муле“ с 9000 евро
+[+] Обем на текста: 1704 символа
+
+[->] Извличане на: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Заглавие: Лятна кухня изгоря в кв. Бела вода
+[+] Обем на текста: 456 символа
+
+[->] Извличане на: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Заглавие: Откриват пъмп трак в Радомир
+[+] Обем на текста: 984 символа
+
+[->] Извличане на: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Заглавие: Работа в Перник: Касиери, учители и склададжии с най-високите заплати в Бюрото по труда
+[+] Обем на текста: 950 символа
+
+[->] Извличане на: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Заглавие: Тежка катастрофа край Владая, загина жена
+[+] Обем на текста: 528 символа
+
+[->] Извличане на: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Заглавие: Кметът Кирил Стоев посрещна златната Крисия от Радомир
+[+] Обем на текста: 759 символа
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Обработка: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Записано в базата: Смърт по непредпазливост: Обвиниха шофьо...
+
+[->] Обработка: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Записано в базата: Почина архитекта на хотел Струма в Перни...
+
+[->] Обработка: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Записано в базата: Постоянен арест за перничанин, пребил пр...
+
+[->] Обработка: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Обработка: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Записано в базата: Задържаха шофьора убил перничанка в ката...
+
+[->] Обработка: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Записано в базата: Певецът Благо Борисов от Перник разрови ...
+
+[->] Обработка: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Записано в базата: Светкавична акция за ало-измама в Перник...
+
+[->] Обработка: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Записано в базата: Лятна кухня изгоря в кв. Бела вода...
+
+[->] Обработка: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Записано в базата: Откриват пъмп трак в Радомир...
+
+[->] Обработка: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Записано в базата: Работа в Перник: Касиери, учители и скла...
+
+[->] Обработка: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Записано в базата: Тежка катастрофа край Владая, загина жен...
+
+[->] Обработка: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Записано в базата: Кметът Кирил Стоев посрещна златната Кри...
+
+[+] Всички данни са успешно съхранени в 'news_database.db'!
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Извличане на: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Заглавие: Смърт по непредпазливост: Обвиниха шофьора причинил мелето при Владая
+[+] Обем на текста: 1497 символа
+
+[->] Извличане на: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Заглавие: Почина архитекта на хотел Струма в Перник
+[+] Обем на текста: 371 символа
+
+[->] Извличане на: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Заглавие: Постоянен арест за перничанин, пребил приятелката си
+[+] Обем на текста: 759 символа
+
+[->] Извличане на: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Извличане на: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Заглавие: Задържаха шофьора убил перничанка в катастрофата при Владая
+[+] Обем на текста: 994 символа
+
+[->] Извличане на: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Заглавие: Певецът Благо Борисов от Перник разрови миналото – как волята и дисциплината го спасиха
+[+] Обем на текста: 4722 символа
+
+[->] Извличане на: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Заглавие: Светкавична акция за ало-измама в Перник: Хванаха 18-годишно „муле“ с 9000 евро
+[+] Обем на текста: 1704 символа
+
+[->] Извличане на: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Заглавие: Лятна кухня изгоря в кв. Бела вода
+[+] Обем на текста: 456 символа
+
+[->] Извличане на: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Заглавие: Откриват пъмп трак в Радомир
+[+] Обем на текста: 984 символа
+
+[->] Извличане на: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Заглавие: Работа в Перник: Касиери, учители и склададжии с най-високите заплати в Бюрото по труда
+[+] Обем на текста: 950 символа
+
+[->] Извличане на: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Заглавие: Тежка катастрофа край Владая, загина жена
+[+] Обем на текста: 528 символа
+
+[->] Извличане на: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Заглавие: Кметът Кирил Стоев посрещна златната Крисия от Радомир
+[+] Обем на текста: 759 символа
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Обработка: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Записано в базата: Смърт по непредпазливост: Обвиниха шофьо...
+
+[->] Обработка: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Записано в базата: Почина архитекта на хотел Струма в Перни...
+
+[->] Обработка: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Записано в базата: Постоянен арест за перничанин, пребил пр...
+
+[->] Обработка: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Обработка: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Записано в базата: Задържаха шофьора убил перничанка в ката...
+
+[->] Обработка: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Записано в базата: Певецът Благо Борисов от Перник разрови ...
+
+[->] Обработка: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Записано в базата: Светкавична акция за ало-измама в Перник...
+
+[->] Обработка: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Записано в базата: Лятна кухня изгоря в кв. Бела вода...
+
+[->] Обработка: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Записано в базата: Откриват пъмп трак в Радомир...
+
+[->] Обработка: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Записано в базата: Работа в Перник: Касиери, учители и скла...
+
+[->] Обработка: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Записано в базата: Тежка катастрофа край Владая, загина жен...
+
+[->] Обработка: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Записано в базата: Кметът Кирил Стоев посрещна златната Кри...
+
+[+] Всички данни са успешно съхранени в 'news_database.db'!
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Извличане на: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Заглавие: Смърт по непредпазливост: Обвиниха шофьора причинил мелето при Владая
+[+] Обем на текста: 1497 символа
+
+[->] Извличане на: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Заглавие: Почина архитекта на хотел Струма в Перник
+[+] Обем на текста: 371 символа
+
+[->] Извличане на: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Заглавие: Постоянен арест за перничанин, пребил приятелката си
+[+] Обем на текста: 759 символа
+
+[->] Извличане на: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Извличане на: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Заглавие: Задържаха шофьора убил перничанка в катастрофата при Владая
+[+] Обем на текста: 994 символа
+
+[->] Извличане на: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Заглавие: Певецът Благо Борисов от Перник разрови миналото – как волята и дисциплината го спасиха
+[+] Обем на текста: 4722 символа
+
+[->] Извличане на: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Заглавие: Светкавична акция за ало-измама в Перник: Хванаха 18-годишно „муле“ с 9000 евро
+[+] Обем на текста: 1704 символа
+
+[->] Извличане на: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Заглавие: Лятна кухня изгоря в кв. Бела вода
+[+] Обем на текста: 456 символа
+
+[->] Извличане на: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Заглавие: Откриват пъмп трак в Радомир
+[+] Обем на текста: 984 символа
+
+[->] Извличане на: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Заглавие: Работа в Перник: Касиери, учители и склададжии с най-високите заплати в Бюрото по труда
+[+] Обем на текста: 950 символа
+
+[->] Извличане на: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Заглавие: Тежка катастрофа край Владая, загина жена
+[+] Обем на текста: 528 символа
+
+[->] Извличане на: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Заглавие: Кметът Кирил Стоев посрещна златната Крисия от Радомир
+[+] Обем на текста: 759 символа
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Обработка: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Записано в базата: Смърт по непредпазливост: Обвиниха шофьо...
+
+[->] Обработка: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Записано в базата: Почина архитекта на хотел Струма в Перни...
+
+[->] Обработка: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Записано в базата: Постоянен арест за перничанин, пребил пр...
+
+[->] Обработка: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Обработка: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Записано в базата: Задържаха шофьора убил перничанка в ката...
+
+[->] Обработка: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Записано в базата: Певецът Благо Борисов от Перник разрови ...
+
+[->] Обработка: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Записано в базата: Светкавична акция за ало-измама в Перник...
+
+[->] Обработка: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Записано в базата: Лятна кухня изгоря в кв. Бела вода...
+
+[->] Обработка: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Записано в базата: Откриват пъмп трак в Радомир...
+
+[->] Обработка: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Записано в базата: Работа в Перник: Касиери, учители и скла...
+
+[->] Обработка: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Записано в базата: Тежка катастрофа край Владая, загина жен...
+
+[->] Обработка: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Записано в базата: Кметът Кирил Стоев посрещна златната Кри...
+
+[+] Всички данни са успешно съхранени в 'news_database.db'!
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Извличане на: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Заглавие: Смърт по непредпазливост: Обвиниха шофьора причинил мелето при Владая
+[+] Обем на текста: 1497 символа
+
+[->] Извличане на: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Заглавие: Почина архитекта на хотел Струма в Перник
+[+] Обем на текста: 371 символа
+
+[->] Извличане на: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Заглавие: Постоянен арест за перничанин, пребил приятелката си
+[+] Обем на текста: 759 символа
+
+[->] Извличане на: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Извличане на: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Заглавие: Задържаха шофьора убил перничанка в катастрофата при Владая
+[+] Обем на текста: 994 символа
+
+[->] Извличане на: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Заглавие: Певецът Благо Борисов от Перник разрови миналото – как волята и дисциплината го спасиха
+[+] Обем на текста: 4722 символа
+
+[->] Извличане на: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Заглавие: Светкавична акция за ало-измама в Перник: Хванаха 18-годишно „муле“ с 9000 евро
+[+] Обем на текста: 1704 символа
+
+[->] Извличане на: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Заглавие: Лятна кухня изгоря в кв. Бела вода
+[+] Обем на текста: 456 символа
+
+[->] Извличане на: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Заглавие: Откриват пъмп трак в Радомир
+[+] Обем на текста: 984 символа
+
+[->] Извличане на: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Заглавие: Работа в Перник: Касиери, учители и склададжии с най-високите заплати в Бюрото по труда
+[+] Обем на текста: 950 символа
+
+[->] Извличане на: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Заглавие: Тежка катастрофа край Владая, загина жена
+[+] Обем на текста: 528 символа
+
+[->] Извличане на: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Заглавие: Кметът Кирил Стоев посрещна златната Крисия от Радомир
+[+] Обем на текста: 759 символа
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Обработка: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Записано в базата: Смърт по непредпазливост: Обвиниха шофьо...
+
+[->] Обработка: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Записано в базата: Почина архитекта на хотел Струма в Перни...
+
+[->] Обработка: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Записано в базата: Постоянен арест за перничанин, пребил пр...
+
+[->] Обработка: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Обработка: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Записано в базата: Задържаха шофьора убил перничанка в ката...
+
+[->] Обработка: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Записано в базата: Певецът Благо Борисов от Перник разрови ...
+
+[->] Обработка: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Записано в базата: Светкавична акция за ало-измама в Перник...
+
+[->] Обработка: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Записано в базата: Лятна кухня изгоря в кв. Бела вода...
+
+[->] Обработка: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Записано в базата: Откриват пъмп трак в Радомир...
+
+[->] Обработка: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Записано в базата: Работа в Перник: Касиери, учители и скла...
+
+[->] Обработка: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Записано в базата: Тежка катастрофа край Владая, загина жен...
+
+[->] Обработка: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Записано в базата: Кметът Кирил Стоев посрещна златната Кри...
+
+[+] Всички данни са успешно съхранени в 'news_database.db'!
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Извличане на: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Заглавие: Смърт по непредпазливост: Обвиниха шофьора причинил мелето при Владая
+[+] Обем на текста: 1497 символа
+
+[->] Извличане на: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Заглавие: Почина архитекта на хотел Струма в Перник
+[+] Обем на текста: 371 символа
+
+[->] Извличане на: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Заглавие: Постоянен арест за перничанин, пребил приятелката си
+[+] Обем на текста: 759 символа
+
+[->] Извличане на: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Извличане на: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Заглавие: Задържаха шофьора убил перничанка в катастрофата при Владая
+[+] Обем на текста: 994 символа
+
+[->] Извличане на: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Заглавие: Певецът Благо Борисов от Перник разрови миналото – как волята и дисциплината го спасиха
+[+] Обем на текста: 4722 символа
+
+[->] Извличане на: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Заглавие: Светкавична акция за ало-измама в Перник: Хванаха 18-годишно „муле“ с 9000 евро
+[+] Обем на текста: 1704 символа
+
+[->] Извличане на: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Заглавие: Лятна кухня изгоря в кв. Бела вода
+[+] Обем на текста: 456 символа
+
+[->] Извличане на: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Заглавие: Откриват пъмп трак в Радомир
+[+] Обем на текста: 984 символа
+
+[->] Извличане на: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Заглавие: Работа в Перник: Касиери, учители и склададжии с най-високите заплати в Бюрото по труда
+[+] Обем на текста: 950 символа
+
+[->] Извличане на: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Заглавие: Тежка катастрофа край Владая, загина жена
+[+] Обем на текста: 528 символа
+
+[->] Извличане на: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Заглавие: Кметът Кирил Стоев посрещна златната Крисия от Радомир
+[+] Обем на текста: 759 символа
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Обработка: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Записано в базата: Смърт по непредпазливост: Обвиниха шофьо...
+
+[->] Обработка: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Записано в базата: Почина архитекта на хотел Струма в Перни...
+
+[->] Обработка: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Записано в базата: Постоянен арест за перничанин, пребил пр...
+
+[->] Обработка: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Обработка: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Записано в базата: Задържаха шофьора убил перничанка в ката...
+
+[->] Обработка: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Записано в базата: Певецът Благо Борисов от Перник разрови ...
+
+[->] Обработка: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Записано в базата: Светкавична акция за ало-измама в Перник...
+
+[->] Обработка: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Записано в базата: Лятна кухня изгоря в кв. Бела вода...
+
+[->] Обработка: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Записано в базата: Откриват пъмп трак в Радомир...
+
+[->] Обработка: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Записано в базата: Работа в Перник: Касиери, учители и скла...
+
+[->] Обработка: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Записано в базата: Тежка катастрофа край Владая, загина жен...
+
+[->] Обработка: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Записано в базата: Кметът Кирил Стоев посрещна златната Кри...
+
+[+] Всички данни са успешно съхранени в 'news_database.db'!
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Извличане на: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Заглавие: Смърт по непредпазливост: Обвиниха шофьора причинил мелето при Владая
+[+] Обем на текста: 1497 символа
+
+[->] Извличане на: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Заглавие: Почина архитекта на хотел Струма в Перник
+[+] Обем на текста: 371 символа
+
+[->] Извличане на: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Заглавие: Постоянен арест за перничанин, пребил приятелката си
+[+] Обем на текста: 759 символа
+
+[->] Извличане на: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Извличане на: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Заглавие: Задържаха шофьора убил перничанка в катастрофата при Владая
+[+] Обем на текста: 994 символа
+
+[->] Извличане на: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Заглавие: Певецът Благо Борисов от Перник разрови миналото – как волята и дисциплината го спасиха
+[+] Обем на текста: 4722 символа
+
+[->] Извличане на: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Заглавие: Светкавична акция за ало-измама в Перник: Хванаха 18-годишно „муле“ с 9000 евро
+[+] Обем на текста: 1704 символа
+
+[->] Извличане на: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Заглавие: Лятна кухня изгоря в кв. Бела вода
+[+] Обем на текста: 456 символа
+
+[->] Извличане на: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Заглавие: Откриват пъмп трак в Радомир
+[+] Обем на текста: 984 символа
+
+[->] Извличане на: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Заглавие: Работа в Перник: Касиери, учители и склададжии с най-високите заплати в Бюрото по труда
+[+] Обем на текста: 950 символа
+
+[->] Извличане на: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Заглавие: Тежка катастрофа край Владая, загина жена
+[+] Обем на текста: 528 символа
+
+[->] Извличане на: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Заглавие: Кметът Кирил Стоев посрещна златната Крисия от Радомир
+[+] Обем на текста: 759 символа
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Обработка: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Записано в базата: Смърт по непредпазливост: Обвиниха шофьо...
+
+[->] Обработка: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Записано в базата: Почина архитекта на хотел Струма в Перни...
+
+[->] Обработка: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Записано в базата: Постоянен арест за перничанин, пребил пр...
+
+[->] Обработка: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Обработка: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Записано в базата: Задържаха шофьора убил перничанка в ката...
+
+[->] Обработка: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Записано в базата: Певецът Благо Борисов от Перник разрови ...
+
+[->] Обработка: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Записано в базата: Светкавична акция за ало-измама в Перник...
+
+[->] Обработка: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Записано в базата: Лятна кухня изгоря в кв. Бела вода...
+
+[->] Обработка: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Записано в базата: Откриват пъмп трак в Радомир...
+
+[->] Обработка: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Записано в базата: Работа в Перник: Касиери, учители и скла...
+
+[->] Обработка: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Записано в базата: Тежка катастрофа край Владая, загина жен...
+
+[->] Обработка: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Записано в базата: Кметът Кирил Стоев посрещна златната Кри...
+
+[+] Всички данни са успешно съхранени в 'news_database.db'!
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Извличане на: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Заглавие: Смърт по непредпазливост: Обвиниха шофьора причинил мелето при Владая
+[+] Обем на текста: 1497 символа
+
+[->] Извличане на: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Заглавие: Почина архитекта на хотел Струма в Перник
+[+] Обем на текста: 371 символа
+
+[->] Извличане на: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Заглавие: Постоянен арест за перничанин, пребил приятелката си
+[+] Обем на текста: 759 символа
+
+[->] Извличане на: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Извличане на: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Заглавие: Задържаха шофьора убил перничанка в катастрофата при Владая
+[+] Обем на текста: 994 символа
+
+[->] Извличане на: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Заглавие: Певецът Благо Борисов от Перник разрови миналото – как волята и дисциплината го спасиха
+[+] Обем на текста: 4722 символа
+
+[->] Извличане на: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Заглавие: Светкавична акция за ало-измама в Перник: Хванаха 18-годишно „муле“ с 9000 евро
+[+] Обем на текста: 1704 символа
+
+[->] Извличане на: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Заглавие: Лятна кухня изгоря в кв. Бела вода
+[+] Обем на текста: 456 символа
+
+[->] Извличане на: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Заглавие: Откриват пъмп трак в Радомир
+[+] Обем на текста: 984 символа
+
+[->] Извличане на: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Заглавие: Работа в Перник: Касиери, учители и склададжии с най-високите заплати в Бюрото по труда
+[+] Обем на текста: 950 символа
+
+[->] Извличане на: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Заглавие: Тежка катастрофа край Владая, загина жена
+[+] Обем на текста: 528 символа
+
+[->] Извличане на: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Заглавие: Кметът Кирил Стоев посрещна златната Крисия от Радомир
+[+] Обем на текста: 759 символа
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Обработка: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Записано в базата: Смърт по непредпазливост: Обвиниха шофьо...
+
+[->] Обработка: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Записано в базата: Почина архитекта на хотел Струма в Перни...
+
+[->] Обработка: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Записано в базата: Постоянен арест за перничанин, пребил пр...
+
+[->] Обработка: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Обработка: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Записано в базата: Задържаха шофьора убил перничанка в ката...
+
+[->] Обработка: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Записано в базата: Певецът Благо Борисов от Перник разрови ...
+
+[->] Обработка: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Записано в базата: Светкавична акция за ало-измама в Перник...
+
+[->] Обработка: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Записано в базата: Лятна кухня изгоря в кв. Бела вода...
+
+[->] Обработка: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Записано в базата: Откриват пъмп трак в Радомир...
+
+[->] Обработка: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Записано в базата: Работа в Перник: Касиери, учители и скла...
+
+[->] Обработка: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Записано в базата: Тежка катастрофа край Владая, загина жен...
+
+[->] Обработка: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Записано в базата: Кметът Кирил Стоев посрещна златната Кри...
+
+[+] Всички данни са успешно съхранени в 'news_database.db'!
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Извличане на: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Заглавие: Смърт по непредпазливост: Обвиниха шофьора причинил мелето при Владая
+[+] Обем на текста: 1497 символа
+
+[->] Извличане на: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Заглавие: Почина архитекта на хотел Струма в Перник
+[+] Обем на текста: 371 символа
+
+[->] Извличане на: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Заглавие: Постоянен арест за перничанин, пребил приятелката си
+[+] Обем на текста: 759 символа
+
+[->] Извличане на: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Извличане на: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Заглавие: Задържаха шофьора убил перничанка в катастрофата при Владая
+[+] Обем на текста: 994 символа
+
+[->] Извличане на: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Заглавие: Певецът Благо Борисов от Перник разрови миналото – как волята и дисциплината го спасиха
+[+] Обем на текста: 4722 символа
+
+[->] Извличане на: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Заглавие: Светкавична акция за ало-измама в Перник: Хванаха 18-годишно „муле“ с 9000 евро
+[+] Обем на текста: 1704 символа
+
+[->] Извличане на: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Заглавие: Лятна кухня изгоря в кв. Бела вода
+[+] Обем на текста: 456 символа
+
+[->] Извличане на: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Заглавие: Откриват пъмп трак в Радомир
+[+] Обем на текста: 984 символа
+
+[->] Извличане на: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Заглавие: Работа в Перник: Касиери, учители и склададжии с най-високите заплати в Бюрото по труда
+[+] Обем на текста: 950 символа
+
+[->] Извличане на: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Заглавие: Тежка катастрофа край Владая, загина жена
+[+] Обем на текста: 528 символа
+
+[->] Извличане на: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Заглавие: Кметът Кирил Стоев посрещна златната Крисия от Радомир
+[+] Обем на текста: 759 символа
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Обработка: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Записано в базата: Смърт по непредпазливост: Обвиниха шофьо...
+
+[->] Обработка: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Записано в базата: Почина архитекта на хотел Струма в Перни...
+
+[->] Обработка: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Записано в базата: Постоянен арест за перничанин, пребил пр...
+
+[->] Обработка: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Обработка: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Записано в базата: Задържаха шофьора убил перничанка в ката...
+
+[->] Обработка: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Записано в базата: Певецът Благо Борисов от Перник разрови ...
+
+[->] Обработка: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Записано в базата: Светкавична акция за ало-измама в Перник...
+
+[->] Обработка: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Записано в базата: Лятна кухня изгоря в кв. Бела вода...
+
+[->] Обработка: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Записано в базата: Откриват пъмп трак в Радомир...
+
+[->] Обработка: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Записано в базата: Работа в Перник: Касиери, учители и скла...
+
+[->] Обработка: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Записано в базата: Тежка катастрофа край Владая, загина жен...
+
+[->] Обработка: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Записано в базата: Кметът Кирил Стоев посрещна златната Кри...
+
+[+] Всички данни са успешно съхранени в 'news_database.db'!
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Извличане на: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Заглавие: Смърт по непредпазливост: Обвиниха шофьора причинил мелето при Владая
+[+] Обем на текста: 1497 символа
+
+[->] Извличане на: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Заглавие: Почина архитекта на хотел Струма в Перник
+[+] Обем на текста: 371 символа
+
+[->] Извличане на: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Заглавие: Постоянен арест за перничанин, пребил приятелката си
+[+] Обем на текста: 759 символа
+
+[->] Извличане на: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Извличане на: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Заглавие: Задържаха шофьора убил перничанка в катастрофата при Владая
+[+] Обем на текста: 994 символа
+
+[->] Извличане на: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Заглавие: Певецът Благо Борисов от Перник разрови миналото – как волята и дисциплината го спасиха
+[+] Обем на текста: 4722 символа
+
+[->] Извличане на: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Заглавие: Светкавична акция за ало-измама в Перник: Хванаха 18-годишно „муле“ с 9000 евро
+[+] Обем на текста: 1704 символа
+
+[->] Извличане на: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Заглавие: Лятна кухня изгоря в кв. Бела вода
+[+] Обем на текста: 456 символа
+
+[->] Извличане на: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Заглавие: Откриват пъмп трак в Радомир
+[+] Обем на текста: 984 символа
+
+[->] Извличане на: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Заглавие: Работа в Перник: Касиери, учители и склададжии с най-високите заплати в Бюрото по труда
+[+] Обем на текста: 950 символа
+
+[->] Извличане на: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Заглавие: Тежка катастрофа край Владая, загина жена
+[+] Обем на текста: 528 символа
+
+[->] Извличане на: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Заглавие: Кметът Кирил Стоев посрещна златната Крисия от Радомир
+[+] Обем на текста: 759 символа
+[+] Заредени 12 линка за обработка през Tor...
+
+[->] Обработка: https://zapernik.com/204865/smart-po-nepredpazlivost-obviniha-shofora-prichinil-meleto-pri-vladaya/
+[+] Записано в базата: Смърт по непредпазливост: Обвиниха шофьо...
+
+[->] Обработка: https://zapernik.com/204863/pochina-arhitekta-na-hotel-struma-v-pernik/
+[+] Записано в базата: Почина архитекта на хотел Струма в Перни...
+
+[->] Обработка: https://zapernik.com/204859/postoyanen-arest-za-pernichanin-prebil-priyatelkata-si/
+[+] Записано в базата: Постоянен арест за перничанин, пребил пр...
+
+[->] Обработка: https://zapernik.com/204853/lelka-stana-za-primer-na-mladite-v-pernik-kak-ne-tryabva-da-stavat-mizerniczi/
+[-] Сървърът върна код: 404
+
+[->] Обработка: https://zapernik.com/204851/zadarzhaha-shofora-ubil-pernichanka-v-katastrofata-pri-vladaya/
+[+] Записано в базата: Задържаха шофьора убил перничанка в ката...
+
+[->] Обработка: https://zapernik.com/204834/peveczat-blago-borisov-ot-pernik-razrovi-minaloto-kak-volyata-i-discziplinata-go-spasiha/
+[+] Записано в базата: Певецът Благо Борисов от Перник разрови ...
+
+[->] Обработка: https://zapernik.com/204846/svetkavichna-akcziya-za-alo-izmama-v-pernik-hvanaha-18-godishno-mule-s-9000-evro/
+[+] Записано в базата: Светкавична акция за ало-измама в Перник...
+
+[->] Обработка: https://zapernik.com/204844/lyatna-kuhnya-izgorya-v-kv-bela-voda/
+[+] Записано в базата: Лятна кухня изгоря в кв. Бела вода...
+
+[->] Обработка: https://zapernik.com/204831/otkrivat-pamp-trak-v-radomir/
+[+] Записано в базата: Откриват пъмп трак в Радомир...
+
+[->] Обработка: https://zapernik.com/204828/rabota-v-pernik-kasieri-uchiteli-i-skladadzhii-s-naj-visokite-zaplati-v-byuroto-po-truda/
+[+] Записано в базата: Работа в Перник: Касиери, учители и скла...
+
+[->] Обработка: https://zapernik.com/204819/tezhko-mele-kraj-vladaya-zagina-zhena/
+[+] Записано в базата: Тежка катастрофа край Владая, загина жен...
+
+[->] Обработка: https://zapernik.com/204816/kmetat-kiril-stoev-posresthna-zlatnata-krisiya-ot-radomir/
+[+] Записано в базата: Кметът Кирил Стоев посрещна златната Кри...
+
+[+] Всички данни са успешно съхранени в 'news_database.db'!

@@ -1,0 +1,12 @@
+===================================================
+BOOM KILLSHOT --- MARAUDER-AI AVTOMATIZATION
+BRANDING: ADMIRALERROR & ARGON
+===================================================
+[+] Modul 1: Link, IP, Tel Nomer - Aktiviran
+[+] Modul 2: Vulnerability Scan - Gotov
+[+] Modul 3: Kamera, Mikrofon, Cash, Paroli - Nasoceni kam papkata
+[+] Modul 4: Generirane na mini skript - On
+[+] Modul 5: Zakachane na skript na snimka/fail - On
+[+] Modul 6: Sabirane na danni ot otvoriavtite - On
+[+] Modul 7: Neprekusnat zapis ot razbito ustroistvo - On
+===================================================
